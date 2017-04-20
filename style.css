@@ -1,0 +1,10 @@
+body{
+    background-color: aqua;
+}
+
+#main-grey {
+    width: 824px;
+    height: 2000px;
+    position: relative;
+    background-color: slategrey;
+}
