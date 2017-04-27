@@ -5,6 +5,6 @@ body{
 #main-grey {
     width: 824px;
     height: 2000px;
-    position: relative;
+    position: absolute;
     background-color: slategrey;
 }
