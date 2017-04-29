@@ -1,0 +1,216 @@
+body{
+    background-color: lightgray;
+    margin: auto;
+}
+
+#main-container {
+    position: relative;
+    margin: auto;
+    width: 1024px;
+    height: 2200px;
+    background-color: white;
+}
+
+h1{
+    font-family: arial;
+    text-align: center;
+    font-size: 2em;
+    top: 0;
+}
+
+h2{
+    font-family: arial;
+    font-size: 0.8em;
+    text-align: center;
+    margin: auto;
+}
+
+p{
+    font-family: sans-serif;
+    font-size: 0.6em;
+    text-align: center;
+}
+
+span {
+    font-family: arial;
+    font-size: 1em;
+    font-weight: bold;
+    color: white;
+}
+
+
+
+
+/***                    ***/
+/***     klasser        ***/
+/***                    ***/
+
+.content {
+    position: absolute;
+    width: 824px;
+    height: 700px;
+    left: 100px;
+}
+
+
+.linjer {
+    position: absolute;
+    width: 824px;
+    height: 5px;
+    background-color: black;
+    top: 60px;
+}
+
+.event-content {
+    position: absolute;
+    width: 824px;;
+    height: 600px;
+    top: 100px;
+}
+
+.event-bokser {
+    position: absolute;
+    width: 250px;
+    height: 275px;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+.img-fest {
+    width: 250px;
+    height: 175px;
+}
+
+.img-study {
+    width: 250px;
+    height: 175px;
+}
+
+.knapper {
+    position: absolute;
+    width: 200px;
+    height: 20px;
+    background-color: #494945;
+    box-shadow: 2px 2px 2px #888888;
+    opacity: 0.9;
+    text-align: center;
+    padding: 5px;
+    left: 25px;
+    bottom: 10px;
+}
+
+
+
+
+/***                        ***/
+/***    innhold Vulkan      ***/
+/***                        ***/
+
+/*  boks med alt innhold til vulkan */
+#content-vulkan {
+    top: 100px;
+}
+
+/*  gul linje  */
+#farge-v {
+    top: 70px;
+    background-color: #ffff68;
+}
+
+/*  eventbokser */
+#boks-v1 {
+    background-color: #ffff68;
+}
+
+#boks-v2 {
+    left: 287px;
+    background-color: #ffff68;
+}
+
+#boks-v3 {
+    right: 0;
+    background-color: #ffff68;
+}
+
+#boks-v4 {
+    bottom: 0;
+    background-color: #ffff68;
+}
+
+
+
+
+
+/***                                ***/
+/***    innhold Brenneriveien       ***/
+/***                                ***/
+
+/*  boks med alt innhold til brenneriveien  */
+#content-brenneriveien {
+    top: 800px;
+}
+
+/*  blå linje  */
+#farge-b {
+    top: 70px;
+    background-color: #688bff;
+}
+
+/*  eventbokser */
+#boks-b1 {
+    background-color: #688bff;
+}
+
+#boks-b2 {
+    left: 287px;
+    background-color: #688bff;
+}
+
+#boks-b3 {
+    background-color: #688bff;
+    right: 0;
+}
+
+#boks-b4 {
+    background-color: #688bff;
+    bottom: 0;
+}
+
+
+
+
+/***                                ***/
+/***    innhold Fjerdingen          ***/
+/***                                ***/
+
+/*  boks med alt innhold til fjerdingen */
+#content-fjerdingen {
+    top: 1500px;
+}
+
+/*  lilla linje  */
+#farge-f {
+    top: 70px;
+    background-color: #ec85fc;
+}
+
+/*  eventbokser */
+#boks-f1 {
+    background-color: #ec85fc;
+}
+
+#boks-f2 {
+    background-color: #ec85fc;
+    left: 287px;
+}
+
+#boks-f3 {
+    background-color: #ec85fc;
+    right: 0;
+}
+
+#boks-f4 {
+    background-color: #ec85fc;
+    bottom: 0;
+}
+
+
