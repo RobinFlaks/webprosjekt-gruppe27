@@ -1,0 +1,81 @@
+html, body {
+    margin: auto;
+    height: 100%; 
+
+}
+
+
+#header1 {
+    position: relative;
+    margin: auto;
+    width: 100%;
+    height: 50px; 
+    overflow: visible;
+    background-color: lightgray;
+    
+}
+
+#header2 {
+    position: relative;
+    margin: auto;
+    width: 100%;
+    height: 15px;
+    overflow: visible;
+    background-color: #bfbfbf;
+}
+
+#kart {
+    position: absolute;
+    margin: auto;
+    width: 1024px;
+    top: 620px;
+    left: 440px;
+}
+
+#headerText {
+    font-family: arial;
+    font-size: 1.4em;
+    color: white;
+    position: absolute;
+    right: 20px;0
+    
+}
+
+#logo {
+    position: absolute;
+    width: 120px;
+    left: 20px;
+    overflow: visible;
+    top: -40px;
+}
+
+#container2 {
+    position: absolute;
+    margin: auto;
+    width: 1024px;
+    height: 500px;
+    background-color: #bfbfbf;
+    top: 100px;
+    left: 450px;
+    opacity: 0.8;
+    overflow: hidden;
+    
+}
+
+#studenter {
+    position: absolute;
+    margin: auto;
+    width: 1024px;
+    
+}
+
+//** #footer {
+    position: fixed;
+    width: 100%;
+    height: 200px;
+    bottom: 0;
+    background-color: #bfbfbf;
+    opacity: 0.5;
+    
+}
+**/
