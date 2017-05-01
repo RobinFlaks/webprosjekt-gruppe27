@@ -1,0 +1,10 @@
+body {
+    background-color: lightgrey;
+}
+
+#main-container {
+    position: relative;
+    margin: auto;
+    width: 1024px;
+    
+}
