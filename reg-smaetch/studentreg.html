@@ -6,8 +6,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="">
 <meta name="author" content="">
-<link href="studentreg.css" rel="stylesheet" type="text/css">
+<link href="reg.css" rel="stylesheet" type="text/css">
 
+    
 <title>registrering</title>
 
 </head>
@@ -16,17 +17,19 @@
 <div id="container">
     <div id="back">
         <div id="color"></div>
+        <img src="logo.jpg" id="logo">
         <img src="backpic.jpg" id="bilde">
-        <form id="form">
-            <input id="fn" type="text" class="inputform" name="firstname" placeholder="Fornavn"><br><br>
-            <input id="scjekk" class="inputform" type="text" name="lastname" placeholder="Etternavn"><br><br>
+        
+        <form method="post" action="sendStudentReg.php" id="form">
+            <input id="fn" type="text" class="inputform" name="fornavn" placeholder="Fornavn"><br><br>
+            <input id="scjekk" class="inputform" type="text" name="etternavn" placeholder="Etternavn"><br><br>
             <input type="text" class="inputform" name="studentnr" placeholder="Studentnr"><br><br>
             <input type="text" class="inputform" name="mail" placeholder="Student Mail"><br><br>
             <input type="password" class="inputform" name="pass" placeholder="Passord"><br><br>
             <input type="password" class="inputform" name="pass2" placeholder="Gjenta Passord"><br><br>
             <input type="checkbox" id="check" name="chekk">
             <label>Jeg godtar brukervilkår</label><br><br>
-            <input type="submit" id="button" value="FML">
+            <input type="submit" class="button" value="Registrer">
             
             
         </form>
