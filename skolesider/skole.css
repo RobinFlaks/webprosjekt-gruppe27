@@ -1,0 +1,39 @@
+body {
+    margin: auto;
+    height: 1500px;
+    background-color: whitesmoke;
+}   
+#container *{
+    position: absolute;
+    font-size: 20px;
+    font-style: arial;
+}
+
+#container{
+    top: 100px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    position: relative;
+    margin: auto;
+    height: 1300px;
+    width: 1024px;
+    background-color: white;
+    overflow: hidden;
+}
+    
+#tekst{
+    width: 600px;
+    height: 500px;
+    top: 600px;
+    left: 100px;
+    }
+
+
+
+#vulkan{
+    position: absolute;
+    height: 481px;
+    width: 1024px;
+    top: 0px;
+    
+}
