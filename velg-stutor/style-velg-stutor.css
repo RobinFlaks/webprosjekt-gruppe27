@@ -29,9 +29,9 @@ body{
 /***                ***/
 #img-header {
     position: absolute;
-    height: 481px;
-    left: -50px;
+    width: 1024px;
     top: -50px;
+    opacity: 0.8;
 }
 
 #txt-header {
