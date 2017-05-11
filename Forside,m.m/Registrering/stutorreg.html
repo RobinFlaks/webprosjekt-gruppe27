@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="studentreg.css" rel="stylesheet" type="text/css">
+
+
+    <title>registrering</title>
+
+</head>
+
+<body id="body">
+    <div id="container">
+        <div id="back">
+            <div id="color"></div>
+            <img src="logo.png" id="logo">
+            <img src="backpic.jpg" id="bilde">
+
+
+            <form method="post" action="sendStudentReg.php" enctype="multipart/form-data" id="form">
+                <input type="text" class="inputform" name="fornavn" placeholder="Fornavn" required>
+                <br>
+                <br>
+                <input class="inputform" type="text" name="etternavn" placeholder="Etternavn" required>
+                <br>
+                <br>
+                <input type="text" class="inputform" name="studentnr" placeholder="Studentnr" required>
+                <br>
+                <br>
+                <input type="email" class="inputform" name="mail" placeholder="Student Mail" required>
+                <br>
+                <br>
+                <input type="password" class="inputform" name="password" placeholder="Passord" required>
+                <br>
+                <br>
+                <input type="password" class="inputform" name="pass2" placeholder="Gjenta Passord" required>
+                <br>
+                <br>
+                <input type="file" name="bilde" id="upImage" required>
+                <div class="button" id="fake">
+                    </input>Last opp et bilde</div>
+                <div id="blocker"></div>
+                <br>
+                <br>
+                <br>
+                <input type="checkbox" id="check" name="chekk" required>
+                <label>Jeg godtar brukervilkår</label>
+                <br>
+                <br>
+                <input type="submit" class="button" name="studor" value="Registrer">
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
