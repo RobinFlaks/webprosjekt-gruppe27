@@ -1,5 +1,5 @@
 body{
-    background-color: aliceblue;
+    background-color: #e6ffff;
     margin: auto;
 }
 
@@ -10,7 +10,7 @@ body{
     height: 750px;
     margin: auto;
     overflow: hidden; 
-    background-color: white;
+    background-color: #ffffff;
 }
 
 #container *{
@@ -18,10 +18,9 @@ body{
 }
 
 label {
-    left: -15px;
+    left: 20px;
     width: 200px;
-    clear:   left;
-    text-align: right;
+    text-align: left;
     padding-right: 3px;
     color: black;
     font-family: arial;
@@ -112,6 +111,7 @@ label {
 }
 
 #logo {
+    left: 20px;
     top: 150px;
-    height: 200px;
+    height: 220px;
 }
