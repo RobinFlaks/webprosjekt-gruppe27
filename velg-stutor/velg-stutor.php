@@ -112,5 +112,18 @@
     
     </div>
 
+     <div id="header1">
+                    <!-- <h1 id="meny">meny meny meny meny</h1> --></div>
+
+                <div id="header2"><img id="logo" src="../Forside/Bilderforside/logo123.png">
+
+                    <p id="logotekst1">VULKAN</p>
+                    <p id="logotekst2">BRENNERIVEIEN</p>
+                    <p id="logotekst3">FJERDINGEN</p>
+
+                </div>
+
+
+    
 </body>
 </html>

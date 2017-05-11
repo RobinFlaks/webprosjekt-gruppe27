@@ -1,5 +1,5 @@
 body{
-    background-color: #e6ffff;
+    background-color: lightgray;
     margin: auto;
 }
 
@@ -7,7 +7,7 @@ body{
     position: relative;
     margin: auto;
     width: 1024px;
-    height: 750px;
+    height: 1500px;
     margin: auto;
     overflow: hidden; 
     background-color: #ffffff;
@@ -15,6 +15,77 @@ body{
 
 #container *{
     position: absolute;
+}
+
+#OverskriftInfo {
+    font-family: century gothic;
+    font-size: 2em;
+    position: absolute;
+    top: -170px;
+    color: #6d4695;
+    
+}
+
+#Informasjon {
+    font-family: century gothic;
+    font-size: 1.2em;
+    position: absolute;
+    top: -100px;
+    color: black;
+    
+}
+
+
+#header1 {
+    position: fixed;
+    margin: auto;
+    width: 100%;
+    height: 50px;
+    top: 0px;
+    overflow: visible;
+    background-color: lightgray;
+}
+
+#header2 {
+    position: fixed;
+    margin: auto;
+    width: 100%;
+    height: 15px;
+    overflow: visible;
+    background-color: #9b9b9b;
+    top: 50px;
+}
+
+#logo {
+    position: fixed;
+    width: 120px;
+    left: 20px;
+    overflow: visible;
+    top: 10px;
+}
+
+#logotekst1 {
+    position: absolute;
+    top: -19px;
+    font-family: century gothic;
+    left: 150px;
+    color: #edc54d;
+}
+
+#logotekst2 {
+    position: absolute;
+    top: -19px;
+    font-family: century gothic;
+    left: 217px;
+    color: #498687;
+}
+
+#logotekst3 {
+    position: absolute;
+    top: -19px;
+    font-family: century gothic;
+    left: 340px;
+    color: #6d4695;
 }
 
 label {
@@ -54,7 +125,7 @@ label {
     top: 60px;
     height: 400px;
     width: 824px;
-    background-color: #eff0f2;
+    background-color: lightgray;
     opacity: 1;
     
 }
@@ -110,8 +181,3 @@ label {
     z-index: 3;
 }
 
-#logo {
-    left: 20px;
-    top: 150px;
-    height: 220px;
-}
