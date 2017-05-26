@@ -1,12 +1,6 @@
 <?php
 
-// Attempt MySQL server connection. Assuming you are running MySQL
-$link = mysqli_connect("localhost", "root", "root", "prosjekt");
- 
-// sjekker forbindelsen
-if($link === false){
-    die("ERROR: Could not connect. " . mysqli_connect_error());
-}
+require ('connecting.php');
 
 //ingen bruker inputs
 $fornavn = mysqli_real_escape_string($link, $_REQUEST['fornavn']);
@@ -17,7 +11,7 @@ $_REQUEST['mail']);
 $password = mysqli_real_escape_string($link, $_REQUEST['pass']);
 
 
-
+//sjekker om det er en student som registrerer seg
 if(isset($_REQUEST["student"])){
 
 $sql = "INSERT INTO prosjetk(Studentnummer, fornavn, etternavn, StudentMail, Passord)
@@ -25,14 +19,15 @@ VALUES ('$studentNr','$fornavn','$etternavn','$email','$password')";
 }
 
 
-
+//sjekker om det er en studor som registrerer seg
 if(isset($_REQUEST["studor"])){
 
     $target_dir = "uploads/";
 $target_file = $target_dir . basename($_FILES["bilde"]["name"]);
 $uploadOk = 1;
 $imageFileType = pathinfo($target_file,PATHINFO_EXTENSION);
-// Check if image file is a actual image or fake image 
+
+    // sjekk om bilde filen er et faktisk bilde
 if(isset($_POST["studor"])) {
     $check = getimagesize($_FILES["bilde"]["tmp_name"]);
     if($check !== false) {
@@ -49,7 +44,7 @@ if (file_exists($target_file)) {
     $uploadOk = 0;
 }
 // Check file size
-if ($_FILES["bilde"]["size"] > 500000000) {
+if ($_FILES["bilde"]["size"] > 50000000) {
     echo "Sorry, your file is too large.";
     $uploadOk = 0;
 }
