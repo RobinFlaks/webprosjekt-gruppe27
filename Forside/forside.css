@@ -24,14 +24,22 @@ body {
     top: 90px;
 }
 
-#meny {
+#linker a:link, a:visited {
+    position: absolute;
     font-family: century gothic;
     font-size: 1.2em;
     color: white;
     position: absolute;
     top: 2.5px;
-    left: 1400px;
-} 
+    left: 1100px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#test2:hover {
+    color: #6d4695;
+
+}
 
 #forsbilde {
     position: absolute;
@@ -109,8 +117,9 @@ body {
 } 
 
 #fjerdingen:hover {
-width: 400px;
+    width: 400px;
 }
+
 #logo {
     position: fixed;
     width: 120px;
@@ -147,7 +156,7 @@ width: 400px;
     width: 2000px;
 }
 
-#linkS a:link {
+#linkS a:link, a:visited {
     position: absolute;
     left: 450px;
     top: 400px;
@@ -161,7 +170,8 @@ width: 400px;
     display: inline-block;
 
 } 
-a:hover {
+
+#test:hover {
     color: white;
     background-color: lightgray;
 }

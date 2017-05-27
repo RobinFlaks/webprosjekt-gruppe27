@@ -21,7 +21,7 @@ body{
     font-family: century gothic;
     font-size: 2em;
     position: absolute;
-    top: -80px;
+    top: 300px;;
     color: #6d4695;
     
 }
@@ -30,11 +30,24 @@ body{
     font-family: century gothic;
     font-size: 1.2em;
     position: absolute;
-    top: -30px;
+    top: 350px;
     color: black;
     
 }
 
+#Overskrift2 {
+    position: absolute;
+    font-family: century gothic;
+    top: 456px;
+    color: #6d4695;
+    font-size: 1.3em;
+    border-top: solid 1px; 
+    border-left: solid 1px;
+    border-right: solid 1px;
+    border-color: lightgray;
+    width: 822px;
+    
+}
 
 #header1 {
     position: fixed;
@@ -56,14 +69,22 @@ body{
     top: 90px;
 }
 
-#meny {
+#hjemk a:link, a:visited {
+    position: absolute;
     font-family: century gothic;
     font-size: 1.2em;
     color: white;
     position: absolute;
     top: 2.5px;
     left: 1400px;
-} 
+    text-decoration: none;
+    display: inline-block;
+}
+
+#hjem:hover {
+    color: #6d4695;
+
+}
 
 #logo {
     position: fixed;
@@ -95,24 +116,22 @@ label {
     width: 824px;
     left: 100px;
     top: 260px;
-    
-    
 }
 
 #form {
-    top: 100px;
+    top: 550px;
     opacity: 1;
-    left: 350px;
+    left: 200px;
     
 }
 
 #color {
-    top: 60px;
+    position: absolute;
+    top: 500px;
     height: 400px;
     width: 824px;
     background-color: lightgray;
     opacity: 1;
-    
 }
 
 #backpic {
@@ -146,6 +165,7 @@ label {
     border: 2px solid #bbb;
     border-radius: 2px;
 }
+
 #upImage {
     text-align: right;
     opacity: 0;
@@ -166,3 +186,29 @@ label {
     z-index: 3;
 }
 
+#bilde2 {
+    position: absolute;
+    width: 1024px;
+    top: 80px;
+}
+
+#smtch {
+    position: absolute;
+    width: 350px;
+    top: 450px;
+    font-family: century gothic;
+    color: white;
+    font-size: 4em;
+    text-align: center;
+    
+}
+ 
+#godta {
+    font-family: century gothic;
+    color: #6d4695;
+}
+
+#regis {
+    font-family: century gothic;
+    
+}
