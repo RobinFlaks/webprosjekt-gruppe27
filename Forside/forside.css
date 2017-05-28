@@ -22,17 +22,20 @@ body {
 }
 
 #linker {
-    position: absolute;
-    left: 115px;
+    display: flex;
+    position: relative;
+    width: 100%;
+    left: 0px;
     top: 60px;
     list-style-type: none;
-    margin: 0;
+    margin: auto;
     padding: 0;
     overflow: hidden;
 }
 
 .linkerC {
     float: left;
+    width: 25%;
 }
 
 .linkerC a {
