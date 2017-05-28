@@ -21,19 +21,27 @@ body {
     top: 15px;
 }
 
-ul {
+#linker {
+    position: absolute;
+    left: 100px;
+    top: 60px;
     list-style-type: none;
     margin: 0;
     padding: 0;
+    overflow: hidden;
 }
 
 li {
     float: left;
 }
 
-a {
-    display: block;
-    padding: 8px;
+li a {
+    font-family: century gothic;
+    display: inline;
+    color: black;
+    text-align: center;
+    padding: 20px 150px;
+    text-decoration: none;
 }
 
 #bilde1 {
@@ -61,6 +69,27 @@ a {
     height: 500px;
     top: 150px;;
     overflow: hidden;
+}
+
+#Intro {
+    position: absolute;
+    font-family: Century gothic;
+    font-size: 5em;
+    color: black;
+    left: 300px;
+    top: -50px;
+    
+}
+
+#Info {
+    position: absolute;
+    font-family: Century gothic;
+    font-size: 1.7em;
+    color: black;
+    width: 600px;
+    left: 200px;
+    top: 60px;
+    text-align: center;
 }
 
 #container3 {

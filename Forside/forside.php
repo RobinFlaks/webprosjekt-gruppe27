@@ -27,29 +27,27 @@
 
             <img id="bilde1" src="Bilderforside/pexels-photo-196667.jpeg">
 
-        </div>
-
-        <div id="header1">
-
-            <img id="logo" src="Bilderforside/18741955_10154768017151312_392966686_n.png">
-
-        <ul>  
+            <h1 id="Intro">#SMÆTCH</h1>
             
-            <li><a href="../reg-smaetch/studorreg.html">Bli Stutor</a></li>
-
-            <li><a href="../reg-smaetch/studentreg.html">Prøv Smætch</a></li>
-
-            <li><a href="../eventer/eventer.html">Eventer</a></li>
-
-            <li><a href="../skolesider/brenneri.html">Campusene</a></li>
-       
-        </ul>
-      
-        
+            <p id="Info">Med Smætch hjelper vi deg å komme i gang med ditt nye liv som student hos Westerdals. Smætch setter deg opp med en personlig Stutor, en student-tutor, som er godt kjent med dine fag og der det skjer i regi av skolen og utenom!</p>
+            
+             
         </div>
 
-    </div>
+     <ul>
+        
+         <l><a href="../skolesider/fjerdingen.html">Om Campus Fjerdingen</a></l>
+        
+            <l><a href="../skolesider/Brenneriveien.jpg">Om Campus Brenneriveien</a></l>
 
+            <l>a href="../skolesider/vulkan.html">Om Campus Vulkan</a></l>
+         
+        </ul>
+    </div>
+     
+    <?php 
+    require 'header.php';
+      ?>
 
 </body>
 

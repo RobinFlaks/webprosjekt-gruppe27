@@ -1,5 +1,5 @@
-body{
-    background-color: lightgray;
+html, body{
+    height: 100%;
     margin: auto;
 }
 
@@ -10,7 +10,7 @@ body{
     height: 1500px;
     margin: auto;
     overflow: hidden; 
-    background-color: #ffffff;
+    background-color: white;
 }
 
 #container *{
