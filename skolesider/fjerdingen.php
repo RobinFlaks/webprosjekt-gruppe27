@@ -17,20 +17,20 @@
         <h1 id="Overskrift">Fjerdingen</h1><br><br><br>
         <p id="om skolen">Campus Fjerdingen er vår største campus. Et nyrenovert bygg med moderne og inspirerende lokaler.<br><br> 
 
-Campus Fjerdingen er fylt med studenter fra ulike fagfelt, alle med egne behov. Avdelingene kunstfag, kommunikasjon, teknologi og ledelse har det meste av sin undervisning her. I tillegg til funksjonelle klasserom, har bygningen derfor studioer, spesialrom og øvingslokaler for musikkproduksjon, lysdesign, lyddesign, populærmusikk og programmering.<br><br>
-
-<span>I Sentrum</span>
+            På Campus Fjerdingen holder studentene fra kunstfag, kommunikasjon, teknologi og ledelse til. Her er det flotte funkjsonelle arbeidsrom, klasserom og oppholdsrom. I tillegg til det er det flere spesialrom og øvingslokaler for musikkproduksjon, lysdesign, lyddesign, populærmusikk og programmering. 
+        
             <br><br>
+     
+            Campus Fjerdingen ligger sentralt plassert ved akerselva med gangavstand til torggata, jernbanetorget og grønland. Langs elven er det et stort parkområde med turstier og resten av den gamle industrien som preger sentrum av Oslo. 
             
-Vårt nye campus ligger sentralt plassert ved Akerselva på nedre del av Grünerløkka, med gangavstand til oslofolkets nye favorittgate, Torggata. Langs elva er det parkområder og turstier, men også rester av Oslos industrihistorie. I nærheten av campus Fjerdingen vil du oppdage mange små kafeer, restauranter og barer
-<br><br> 
+            <br>
+            
+            Dette Campuset har også sin egen studentbar, Skjenkestua, som er åpen hver torsdag og fredag, med mange morsomme arrangementer i løpet av semesteret. 
 
-<span>I Sentrum</span>
-<br><br>
 
 
 </p>
-</div>
+
     
     <div id="RegogSkole"> 
        <h1 id=GrønnBoks>#SMÆTCH<br></h1> 
@@ -43,7 +43,7 @@ Vårt nye campus ligger sentralt plassert ved Akerselva på nedre del av Grüner
 
     </div> 
     </div>
- 
+ </div>
 
        <?php 
     require '../externals/header.php';

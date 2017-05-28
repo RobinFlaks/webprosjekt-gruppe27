@@ -17,19 +17,14 @@
         <h1 id="Overskrift">Vulkan</h1><br><br><br>
         <p id="om skolen">Campus Vulkan huser studenter fra skuespillerlinjen og studenter ved film, TV og spill.<br><br> 
 
-Et steinkast unna Grunerløkka ligger Campus Vulkan. Det store, svarte<br> bygget med gule vinduskarmer er ikke til å overse.<br> 
-I samme område ligger Mathallen og koselige kubaparken som de fleste på<br> Vulkan benytter seg av om sommeren.<br><br> 
+            Godt plassert i det nye restaurant og utelivområdet Vulkan ligger Campus Vulkan. Et steinkast fra kubaparken som bugner av liv om sommeren og mathallen. 
 
-        <span>I Sentrum</span><br><br>
+            Campus Vulkan ligger nærmest grünerløkka, med secondhand- og vintagebutikker, restauranter og uteliv. Selve Campuset er nettopp gjennomgått en real oppgradering.<br><br>
 
-Vulkan ligger meget sentralt plassert ved flotte Akerselva på nedre del av Grunerløkka. 
-På Grunerløkka finnes det meste. Alt fra små koselige kafeer, restauranter og barer til designbutikker, vintage og second-hand butikker.<br><br>
 
-        <span>Campuset</span><br><br>
-
-Bygget har nettopp gjennomgått en oppgradering. Auditoriet har blitt forbedret, nytt ventilasjonsannlegg i hele bygget, spesialrom har blitt bygget for studentene i de ulike studiene, utstyrslager og flere mingleområder. 
+ 
 </p>
-</div>
+
     
       <div id="RegogSkole"> 
        <h1 id="GrønnBoks">#SMÆTCH<br></h1> 
@@ -39,7 +34,7 @@ Bygget har nettopp gjennomgått en oppgradering. Auditoriet har blitt forbedret,
         
          <a href="brenneri.html" id="nesteV">Campus Brenneriveien</a>
          
-
+</div>
     </div>
     </div>
 
