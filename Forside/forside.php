@@ -24,10 +24,9 @@
 
 
         <div id="container2">
-
+<!-- bilde fra pexels -->
             <img id="bilde1" src="Bilderforside/pexels-photo-196667.jpeg">
 
-            <h1 id="Intro">#SMÆTCH</h1>
 
             <p id="Info">Med Smætch hjelper vi deg å komme i gang med ditt nye liv som student hos Westerdals. Smætch setter deg opp med en personlig Stutor, en student-tutor, som er godt kjent med dine fag og der det skjer i regi av skolen og utenom!</p>
 
@@ -46,7 +45,7 @@
     </div>
 
     <?php 
-    require 'header.php';
+    require '../externals/header.php';
       ?>
 
 </body>
