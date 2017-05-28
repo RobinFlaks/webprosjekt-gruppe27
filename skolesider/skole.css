@@ -27,7 +27,7 @@ body {
 /*Basic settings for all tekst*/
 #tekst{
     font-family: century gothic;
-    top: 500px;
+    top: 750px;
     position: absolute; 
 }
 /*Overskrift på siden*/
@@ -44,11 +44,10 @@ body {
 }
 /*css for grønn container*/
 #RegogSkole{
-    position: absolute;
+    position: relative;
     margin: auto;
     width: 1024px;
     height: 200px;
-    top: 1200px;
     background-color:#F1F5EB;
     
 }
@@ -101,10 +100,5 @@ body {
     position: absolute;
     height: 481px;
     width: 1024px;
-    top: 0px;
     align-content: center;
-}
-/*??*/
-#RegogSkole
-    
 }
