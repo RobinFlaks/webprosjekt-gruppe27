@@ -10,7 +10,7 @@ html, body{
     height: 1500px;
     margin: auto;
     overflow: hidden; 
-    background-color: #ffffff;
+    background-color: white;
 }
 
 #container *{

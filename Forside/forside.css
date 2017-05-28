@@ -71,6 +71,27 @@ li a {
     overflow: hidden;
 }
 
+#Intro {
+    position: absolute;
+    font-family: Century gothic;
+    font-size: 5em;
+    color: black;
+    left: 300px;
+    top: -50px;
+    
+}
+
+#Info {
+    position: absolute;
+    font-family: Century gothic;
+    font-size: 1.7em;
+    color: black;
+    width: 600px;
+    left: 200px;
+    top: 60px;
+    text-align: center;
+}
+
 #container3 {
     position: relative;
     margin: auto;
