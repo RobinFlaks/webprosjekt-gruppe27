@@ -22,8 +22,7 @@ html, body{
     font-size: 3em;
     position: absolute;
     text-align: center;
-    left: 150px;
-    width: 500px;
+    width: 824px;
     top: 450px;
     color: black;
     
@@ -36,7 +35,7 @@ html, body{
     top: 530px;
     color: black;
     text-align: center;
-    left: 220px;
+    width: 824px;
 }
 
 
@@ -153,7 +152,7 @@ label {
     top: 530px;
     color: black;
     text-align: center;
-    left: 10px;
+    width: 824px;
 
 }
 
@@ -165,6 +164,14 @@ label {
     color: black;
     text-align: center;
     width: 824px;
+    
+}
+
+#bilde4 {
+    position: absolute;
+    width: 1024px;
+    top: 150px;
+    
 }
 
 
