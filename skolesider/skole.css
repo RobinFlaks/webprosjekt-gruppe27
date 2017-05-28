@@ -108,9 +108,10 @@ body {
     
 }
 /*Alt inne i grønn container*/
-#TilgjengeligStud{
+#GrønnBoks{
     text-align: center;
-    top: 50px;
+    bottom: 20px;
+    font-size: 90px;
     font-family: century gothic;
 }
 
@@ -151,15 +152,15 @@ body {
     
     
 }
-/*skolebilde*/
-#Bbilde{
+/*skolebilder*/
+#Hbilde{
     position: absolute;
     height: 481px;
     width: 1024px;
     top: 0px;
     align-content: center;
 }
-/*??*/
+/*Evnetuelt infor i grønnboks*/
 #RegogSkole
     
 }
