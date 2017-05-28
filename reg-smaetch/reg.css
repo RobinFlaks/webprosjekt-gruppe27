@@ -1,0 +1,196 @@
+body{
+    background-color: lightgray;
+    margin: auto;
+}
+
+#container {
+    position: relative;
+    margin: auto;
+    width: 1024px;
+    height: 1500px;
+    margin: auto;
+    overflow: hidden; 
+    background-color: #ffffff;
+}
+
+#container *{
+    position: absolute;
+}
+
+#OverskriftInfo {
+    font-family: century gothic;
+    font-size: 2em;
+    position: absolute;
+    top: 300px;;
+    color: #6d4695;
+    
+}
+
+#Informasjon {
+    font-family: century gothic;
+    font-size: 1.2em;
+    position: absolute;
+    top: 350px;
+    color: black;
+    
+}
+
+#Overskrift2 {
+    position: absolute;
+    font-family: century gothic;
+    top: 456px;
+    color: #6d4695;
+    font-size: 1.3em;
+    border-top: solid 1px; 
+    border-left: solid 1px;
+    border-right: solid 1px;
+    border-color: lightgray;
+    width: 822px;
+    
+}
+
+#header1 {
+    position: fixed;
+    margin: auto;
+    width: 100%;
+    height: 100px;
+    top: 0px;
+    overflow: visible;
+    background-color: lightgray;
+}
+
+#hjemk a:link, a:visited {
+    position: absolute;
+    font-family: century gothic;
+    font-size: 1.2em;
+    color: white;
+    position: absolute;
+    top: 2.5px;
+    left: 1400px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#hjem:hover {
+    color: #6d4695;
+
+}
+
+label {
+    left: 20px;
+    width: 200px;
+    text-align: left;
+    padding-right: 3px;
+    color: black;
+    font-family: arial;
+}
+#bilde {
+    opacity: 1;
+    left: -100px;
+    top: -130px;
+    width: 1024px;
+    height: 200px;
+    background-color: deepskyblue;
+}
+
+#back {
+    height: 600px;
+    width: 824px;
+    left: 100px;
+    top: 260px;
+}
+
+#form {
+    top: 550px;
+    opacity: 1;
+    left: 200px;
+    
+}
+
+#color {
+    position: absolute;
+    top: 500px;
+    height: 400px;
+    width: 824px;
+    background-color: lightgray;
+    opacity: 1;
+}
+
+#backpic {
+    height: 100%;
+    width: 100%;
+}
+
+.button {
+    font-family: arial;
+    width: 400px;
+    background-color: #bbb;
+  padding: .5em;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 6px;
+  color: #fff;
+  font-family: 'Oswald';
+  font-size: 20px;
+  text-decoration: none;
+  border: none;
+}
+
+
+
+.inputform {
+    font-family: arial;
+    height: 30px;
+    width: 400px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 2px solid #bbb;
+    border-radius: 2px;
+}
+
+#upImage {
+    text-align: right;
+    opacity: 0;
+    z-index: 2; 
+    font-size: 37px;
+}
+
+#fake {
+    width: 380px;
+    text-align: center;
+}
+
+
+#blocker {
+    left: 400px;
+    height: 47px;
+    width: 30000px;
+    z-index: 3;
+}
+
+#bilde2 {
+    position: absolute;
+    width: 1024px;
+    top: 80px;
+}
+
+#smtch {
+    position: absolute;
+    width: 350px;
+    top: 450px;
+    font-family: century gothic;
+    color: white;
+    font-size: 4em;
+    text-align: center;
+    
+}
+ 
+#godta {
+    font-family: century gothic;
+    color: #6d4695;
+}
+
+#regis {
+    font-family: century gothic;
+    
+}
