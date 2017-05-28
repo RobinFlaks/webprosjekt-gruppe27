@@ -1,253 +1,109 @@
 body{
-    background-color: lightgray;
+    background-color: #FFFFFF;
     margin: auto;
-}
-
-#main-container {
-    position: relative;
-    margin: auto;
-    width: 1024px;
-    height: 2200px;
-    background-color: white;
 }
 
 #header1 {
     position: fixed;
     margin: auto;
     width: 100%;
-    height: 100px;
+    height: 50px;
     top: 0px;
     overflow: visible;
-    background-color: lightgray;
-}
-
-#header2 {
-    position: fixed;
-    margin: auto;
-    width: 100%;
-    height: 30px;
-    overflow: visible;
-    background-color: #9b9b9b;
-    top: 90px;
-}
-
-#meny {
-    font-family: century gothic;
-    font-size: 1.2em;
-    color: white;
-    position: absolute;
-    top: 2.5px;
-    left: 1400px;
+    background-color: #F1F5EB;
 } 
-
-#logo {
-    position: fixed;
-    width: 120px;
-    left: 450px;
-    overflow: visible;
-    top: 10px;
-}
-
-h1{
-    font-family: arial;
-    text-align: center;
-    font-size: 2em;
-    top: 0;
-}
-
-h2{
-    font-family: arial;
-    font-size: 0.8em;
-    text-align: center;
+/*container med tekst i bildet*/
+#bildecont{
+    position: relative;
     margin: auto;
+    height: 180px;
+    top: 200px; 
 }
-
-.tekst{
-    font-family: sans-serif;
-    font-size: 0.6em;
+/*tekst i bilde*/
+#tekst1{
     text-align: center;
+    font-family: century gothic;
+    font-size: 3em;
+    color: #F1F5EB;
 }
 
-span {
-    font-family: arial;
-    font-size: 1em;
-    font-weight: bold;
-    color: white;
+/*container med eventer*/
+#Container {
+    position: relative;
+    margin: auto;
+    top: 550px;
+    width: 1024px;
+    height: 2200px;
+    background-color: #FFFFFF;
 }
-
-
-
-
-/***                    ***/
-/***     klasser        ***/
-/***                    ***/
-
-.content {
+/*forsidebilde*/
+#Bilde1{
     position: absolute;
-    width: 824px;
-    height: 700px;
-    left: 100px;
+    width: 100%;
+    top: 0px;
+    align-content: center;
 }
-
-
-.linjer {
-    position: absolute;
-    width: 824px;
-    height: 5px;
-    background-color: black;
-    top: 60px;
-}
-
-.event-content {
-    position: absolute;
-    width: 824px;;
-    height: 600px;
-    top: 100px;
-}
-
-.event-bokser {
-    position: absolute;
-    width: 250px;
-    height: 275px;
-    box-shadow: 10px 10px 5px #888888;
-}
-
-.img-fest {
-    width: 250px;
-    height: 175px;
-}
-
-.img-study {
-    width: 250px;
-    height: 175px;
-}
-
-.knapper {
-    position: absolute;
-    width: 200px;
-    height: 20px;
-    background-color: #494945;
-    box-shadow: 2px 2px 2px #888888;
-    opacity: 0.9;
+/*Overskrift eventer*/
+#overskrift{
+    font-family: century gothic;
     text-align: center;
-    padding: 5px;
-    left: 25px;
-    bottom: 10px;
+    z-index: 2;
+    font-size: 4em;
+}
+/* bilder til eventer*/
+#bevent1{
+    position: absolute;
+    width: 40%;
+    top: 150px;
+    left:-150px;
+    align-content: center;
+}
+#bevent2{
+    position: absolute;
+    width: 40%;
+    top: 150px;
+    left: 314px;
+    align-content: center;
+}
+#bevent3{
+    position: absolute;
+    width: 40%;
+    top: 150px;
+    left: 780px;
+    align-content: center;
+}
+#bevent4{
+    position: absolute;
+    width: 40%;
+    height:275px;
+    top: 550px;
+    left: 780px;
+    align-content: center;
+}
+#bevent5{
+    position: absolute;
+    width: 40%;
+    top: 550px;
+    left: 314px;
+    align-content: center;
+}
+#bevent6{
+    position: absolute;
+    width: 40%;
+    top: 550px;
+    left: -150px;
+    align-content: center;
 }
 
 
 
 
-/***                        ***/
-/***    innhold Vulkan      ***/
-/***                        ***/
-
-/*  boks med alt innhold til vulkan */
-#content-vulkan {
-    top: 100px;
-}
-
-/*  gul linje  */
-#farge-v {
-    top: 70px;
-    background-color: #ffff68;
-}
-
-/*  eventbokser */
-#boks-v1 {
-    background-color: #ffff68;
-}
-
-#boks-v2 {
-    left: 287px;
-    background-color: #ffff68;
-}
-
-#boks-v3 {
-    right: 0;
-    background-color: #ffff68;
-}
-
-#boks-v4 {
-    bottom: 0;
-    background-color: #ffff68;
-}
 
 
 
 
 
-/***                                ***/
-/***    innhold Brenneriveien       ***/
-/***                                ***/
-
-/*  boks med alt innhold til brenneriveien  */
-#content-brenneriveien {
-    top: 800px;
-}
-
-/*  blå linje  */
-#farge-b {
-    top: 70px;
-    background-color: #688bff;
-}
-
-/*  eventbokser */
-#boks-b1 {
-    background-color: #688bff;
-}
-
-#boks-b2 {
-    left: 287px;
-    background-color: #688bff;
-}
-
-#boks-b3 {
-    background-color: #688bff;
-    right: 0;
-}
-
-#boks-b4 {
-    background-color: #688bff;
-    bottom: 0;
-}
 
 
-
-
-/***                                ***/
-/***    innhold Fjerdingen          ***/
-/***                                ***/
-
-/*  boks med alt innhold til fjerdingen */
-#content-fjerdingen {
-    top: 1500px;
-}
-
-/*  lilla linje  */
-#farge-f {
-    top: 70px;
-    background-color: #ec85fc;
-}
-
-/*  eventbokser */
-#boks-f1 {
-    background-color: #ec85fc;
-}
-
-#boks-f2 {
-    background-color: #ec85fc;
-    left: 287px;
-}
-
-#boks-f3 {
-    background-color: #ec85fc;
-    right: 0;
-}
-
-#boks-f4 {
-    background-color: #ec85fc;
-    bottom: 0;
-}
 
 
