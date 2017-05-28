@@ -76,15 +76,6 @@ body {
     height: 500px;
     top: 150px;;
     overflow: hidden;
-}
-
-#Intro {
-    position: absolute;
-    font-family: Century gothic;
-    font-size: 5em;
-    color: black;
-    left: 300px;
-    top: -50px;
     
 }
 

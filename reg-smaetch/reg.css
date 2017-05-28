@@ -19,10 +19,13 @@ html, body{
 
 #OverskriftInfo {
     font-family: century gothic;
-    font-size: 2em;
+    font-size: 3em;
     position: absolute;
-    top: 300px;;
-    color: #6d4695;
+    text-align: center;
+    left: 150px;
+    width: 500px;
+    top: 450px;
+    color: black;
     
 }
 
@@ -30,51 +33,12 @@ html, body{
     font-family: century gothic;
     font-size: 1.2em;
     position: absolute;
-    top: 350px;
+    top: 530px;
     color: black;
-    
+    text-align: center;
+    left: 220px;
 }
 
-#Overskrift2 {
-    position: absolute;
-    font-family: century gothic;
-    top: 456px;
-    color: #6d4695;
-    font-size: 1.3em;
-    border-top: solid 1px; 
-    border-left: solid 1px;
-    border-right: solid 1px;
-    border-color: lightgray;
-    width: 822px;
-    
-}
-
-#header1 {
-    position: fixed;
-    margin: auto;
-    width: 100%;
-    height: 100px;
-    top: 0px;
-    overflow: visible;
-    background-color: lightgray;
-}
-
-#hjemk a:link, a:visited {
-    position: absolute;
-    font-family: century gothic;
-    font-size: 1.2em;
-    color: white;
-    position: absolute;
-    top: 2.5px;
-    left: 1400px;
-    text-decoration: none;
-    display: inline-block;
-}
-
-#hjem:hover {
-    color: #6d4695;
-
-}
 
 label {
     left: 20px;
@@ -82,15 +46,7 @@ label {
     text-align: left;
     padding-right: 3px;
     color: black;
-    font-family: arial;
-}
-#bilde {
-    opacity: 1;
-    left: -100px;
-    top: -130px;
-    width: 1024px;
-    height: 200px;
-    background-color: deepskyblue;
+    font-family: Century gothic;
 }
 
 #back {
@@ -101,7 +57,7 @@ label {
 }
 
 #form {
-    top: 550px;
+    top: 650px;
     opacity: 1;
     left: 200px;
     
@@ -109,10 +65,10 @@ label {
 
 #color {
     position: absolute;
-    top: 500px;
-    height: 400px;
+    top: 600px;
+    height: 450px;
     width: 824px;
-    background-color: lightgray;
+    background-color: #f1f5e8;
     opacity: 1;
 }
 
@@ -122,15 +78,14 @@ label {
 }
 
 .button {
-    font-family: arial;
-    width: 400px;
-    background-color: #bbb;
+  width: 400px;
+  background-color: white;
   padding: .5em;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 6px;
-  color: #fff;
-  font-family: 'Oswald';
+  color: black;
+  font-family: Century gothic;
   font-size: 20px;
   text-decoration: none;
   border: none;
@@ -139,7 +94,7 @@ label {
 
 
 .inputform {
-    font-family: arial;
+    font-family: Century gothic;
     height: 30px;
     width: 400px;
     padding: 10px;
@@ -168,29 +123,49 @@ label {
     z-index: 3;
 }
 
+#bilde {
+    position: absolute;
+    width: 1024px;
+    top: 150px;
+}
+
+#splat {
+    right: 130px;
+    top: 450px;
+}
+
+#splat2 {
+    right: 200px;
+    top: 450px;
+}
+
 #bilde2 {
     position: absolute;
     width: 1024px;
-    top: 80px;
+    top: 150px;
+    
 }
 
-#smtch {
+#Informasjon2 {
+    font-family: century gothic;
+    font-size: 1.2em;
     position: absolute;
-    width: 350px;
-    top: 450px;
-    font-family: century gothic;
-    color: white;
-    font-size: 4em;
+    top: 530px;
+    color: black;
     text-align: center;
-    
-}
- 
-#godta {
-    font-family: century gothic;
-    color: #6d4695;
+    left: 10px;
+
 }
 
-#regis {
+#Info3 {
     font-family: century gothic;
-    
+    font-size: 1em;
+    position: absolute;
+    top: 1050px;
+    color: black;
+    text-align: center;
+    width: 824px;
 }
+
+
+
