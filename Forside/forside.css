@@ -23,7 +23,7 @@ body {
 
 #linker {
     position: absolute;
-    left: 100px;
+    left: 115px;
     top: 60px;
     list-style-type: none;
     margin: 0;
@@ -31,17 +31,21 @@ body {
     overflow: hidden;
 }
 
-li {
+.linkerC {
     float: left;
 }
 
-li a {
+.linkerC a {
     font-family: century gothic;
     display: inline;
     color: black;
     text-align: center;
     padding: 20px 150px;
     text-decoration: none;
+}
+
+.linkerC:hover a {
+    color: #EBC8Ba;
 }
 
 #bilde1 {
@@ -90,6 +94,39 @@ li a {
     left: 200px;
     top: 60px;
     text-align: center;
+}
+
+#Campus {
+    position: absolute;
+    width: 1024px;
+    padding: 10px;
+    display: inline;
+    top: 700px;
+    left: 140px;
+    font-family: Century gothic;
+}
+
+#CF {
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+#CF:hover, #CB:hover, #CV:hover {
+    color: #EBC8Ba;
+}
+
+#CB {
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+    
+}
+
+#CV {
+    padding: 20px;
+    text-decoration: none;
+    color: black;
 }
 
 #container3 {

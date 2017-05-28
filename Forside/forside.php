@@ -21,30 +21,30 @@
 
 
         <div id="container1"></div>
-        
+
 
         <div id="container2">
 
             <img id="bilde1" src="Bilderforside/pexels-photo-196667.jpeg">
 
             <h1 id="Intro">#SMÆTCH</h1>
-            
+
             <p id="Info">Med Smætch hjelper vi deg å komme i gang med ditt nye liv som student hos Westerdals. Smætch setter deg opp med en personlig Stutor, en student-tutor, som er godt kjent med dine fag og der det skjer i regi av skolen og utenom!</p>
-            
-             
+
+
         </div>
 
-     <ul>
-        
-         <l><a href="../skolesider/fjerdingen.html">Om Campus Fjerdingen</a></l>
-        
-            <l><a href="../skolesider/Brenneriveien.jpg">Om Campus Brenneriveien</a></l>
+        <div id="Campus">
 
-            <l>a href="../skolesider/vulkan.html">Om Campus Vulkan</a></l>
-         
-        </ul>
+            <a id="CF" href="../skolesider/fjerdingen.html">Om Campus Fjerdingen</a>
+
+            <a id="CB" href="../skolesider/Brenneriveien.jpg">Om Campus Brenneriveien</a>
+
+            <a id="CV" href="../skolesider/vulkan.html">Om Campus Vulkan</a>
+
+        </div>
     </div>
-     
+
     <?php 
     require 'header.php';
       ?>
