@@ -46,18 +46,13 @@
          
 
     </div> 
+    </div>
 
-            <div id="header1">
-                    <img id="logo" src="sm%C3%A6cth.png">
-                   
-                    <a href="reg-smaetch/studorreg.html" id="logotekst1">Blir en studor</a>
-                    <p id="logotekst2">Eventer</p>
-                    <a href="reg-smaetch/studentreg.html" id="logotekst3">Smætch</a>
-                    <p id="logotekst4">Westerdals campus</p>
-
-               </div>
-        </div>
-
+             <?php 
+    require '../externals/header.php';
+      ?>
+    
+        
 </body>
 
 </html>

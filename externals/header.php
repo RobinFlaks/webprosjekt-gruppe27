@@ -1,8 +1,8 @@
-<link href="forside.css" rel="stylesheet" type="text/css">
+<link href="../Forside/forside.css" rel="stylesheet" type="text/css">
 
 <div id="header1">
 
-            <img id="logo" src="Bilderforside/18741955_10154768017151312_392966686_n.png">
+            <img id="logo" src="../Forside/Bilderforside/18741955_10154768017151312_392966686_n.png">
 
         <ul id="linker">  
             

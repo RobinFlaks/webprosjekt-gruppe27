@@ -43,9 +43,9 @@ Bygget har nettopp gjennomgått en oppgradering. Auditoriet har blitt forbedret,
     </div>
     </div>
 
-      <div id="header1">
-
- </div>
+       <?php 
+    require '../externals/header.php';
+      ?>
         
 </body>
 </html>

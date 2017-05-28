@@ -45,12 +45,9 @@ Vårt nye campus ligger sentralt plassert ved Akerselva på nedre del av Grüner
     </div>
  
 
-       <div id="header1">
-
-
-
-        </div>
-
+       <?php 
+    require '../externals/header.php';
+      ?>
 
     
 </body>

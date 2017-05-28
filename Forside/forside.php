@@ -24,7 +24,7 @@
 
 
         <div id="container2">
-
+<!-- bilde fra pexels -->
             <img id="bilde1" src="Bilderforside/pexels-photo-196667.jpeg">
 
 
@@ -45,7 +45,7 @@
     </div>
 
     <?php 
-    require 'header.php';
+    require '../externals/header.php';
       ?>
 
 </body>
